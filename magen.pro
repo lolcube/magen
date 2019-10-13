@@ -9,3 +9,7 @@ HEADERS += AppState.h
 SOURCES += main.cpp AppState.cpp
 
 LIBS += -lSDL2
+
+tilemaps.path = $$OUT_PWD/tilemaps
+tilemaps.files = tilemaps/*
+INSTALLS += tilemaps

@@ -112,7 +112,7 @@ tilemap_t generateRandomMap(){
 }
 int main(int argc, char * argv[]){
     init();
-    const char * tsfilep = "../tilemaps/tiles.png";
+    const char * tsfilep = "tilemaps/tiles.png";
     tileset t = loadTileset(tsfilep, 16, 16);
     if(!t){
         printf("%s does not exist.\nGo find it yourself\n", tsfilep);
