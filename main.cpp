@@ -1,6 +1,6 @@
 #include <SDL2/SDL.h>
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include "libs/stb_image.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
